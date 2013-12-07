@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - AFNetworking/UIKit (2.0.3):
+    - AFNetworking/NSURLConnection
+  - KHFlatButton (1.0.0)
+  - TBMacros (0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0.2)
+  - KHFlatButton (~> 1.0.0)
+  - TBMacros (~> 0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  KHFlatButton: dd9a4481fc6a6926c66b2ac5126e37654ff4978a
+  TBMacros: 59eeb31662b87ee404639cd7c68192d9451a3952
+
+COCOAPODS: 0.28.0
