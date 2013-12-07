@@ -17,6 +17,9 @@
 		2283F75E185357A4008FDC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F743185357A4008FDC70 /* Foundation.framework */; };
 		2283F75F185357A4008FDC70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283F747185357A4008FDC70 /* UIKit.framework */; };
 		2283F77818535A6E008FDC70 /* APPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283F77718535A6E008FDC70 /* APPAPIClient.m */; };
+		2283F77B18535C86008FDC70 /* APPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283F77A18535C86008FDC70 /* APPHomeViewController.m */; };
+		2283F77E185367FA008FDC70 /* APPContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283F77D185367FA008FDC70 /* APPContainerViewController.m */; };
+		2283F78118536D12008FDC70 /* APPIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283F78018536D12008FDC70 /* APPIntroViewController.m */; };
 		77A55609D8A4476BBC3B0457 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EED93578A304062A6013AD0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,12 @@
 		2283F75B185357A4008FDC70 /* Culture!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Culture!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2283F77618535A6E008FDC70 /* APPAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPAPIClient.h; sourceTree = "<group>"; };
 		2283F77718535A6E008FDC70 /* APPAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPAPIClient.m; sourceTree = "<group>"; };
+		2283F77918535C86008FDC70 /* APPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPHomeViewController.h; sourceTree = "<group>"; };
+		2283F77A18535C86008FDC70 /* APPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPHomeViewController.m; sourceTree = "<group>"; };
+		2283F77C185367FA008FDC70 /* APPContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPContainerViewController.h; sourceTree = "<group>"; };
+		2283F77D185367FA008FDC70 /* APPContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPContainerViewController.m; sourceTree = "<group>"; };
+		2283F77F18536D12008FDC70 /* APPIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPIntroViewController.h; sourceTree = "<group>"; };
+		2283F78018536D12008FDC70 /* APPIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPIntroViewController.m; sourceTree = "<group>"; };
 		5EED93578A304062A6013AD0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE42E60884824EA7A492A618 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +164,12 @@
 		2283F77518535804008FDC70 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2283F77918535C86008FDC70 /* APPHomeViewController.h */,
+				2283F77A18535C86008FDC70 /* APPHomeViewController.m */,
+				2283F77C185367FA008FDC70 /* APPContainerViewController.h */,
+				2283F77D185367FA008FDC70 /* APPContainerViewController.m */,
+				2283F77F18536D12008FDC70 /* APPIntroViewController.h */,
+				2283F78018536D12008FDC70 /* APPIntroViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -290,8 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2283F754185357A4008FDC70 /* APPAppDelegate.m in Sources */,
+				2283F78118536D12008FDC70 /* APPIntroViewController.m in Sources */,
 				2283F750185357A4008FDC70 /* main.m in Sources */,
 				2283F77818535A6E008FDC70 /* APPAPIClient.m in Sources */,
+				2283F77B18535C86008FDC70 /* APPHomeViewController.m in Sources */,
+				2283F77E185367FA008FDC70 /* APPContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

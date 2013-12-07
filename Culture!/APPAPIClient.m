@@ -15,7 +15,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
 
-        NSURL *baseURL = [NSURL URLWithString:@"http://api.local/"];
+        NSURL *baseURL = [NSURL URLWithString:@"http://timleytens.be/"];
 
         NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
 
